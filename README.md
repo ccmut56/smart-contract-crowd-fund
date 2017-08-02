@@ -11,7 +11,7 @@ erc20 sc crowdfund edit set minimum funding goal / max sell cap
 
 
 
-/*
+
 pragma solidity ^0.4.2;
 contract token { function transfer(address receiver, uint amount){  } }
 
