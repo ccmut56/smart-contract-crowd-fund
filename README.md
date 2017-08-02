@@ -1,6 +1,16 @@
 # smart-contract-crowd-fund
 erc20 sc crowdfund edit set minimum funding goal / max sell cap 
-is it possible to edit this contract to have a seperate minimum funding goal and a maximum cap ???
+
+
+
+
+
+
+
+
+
+
+
 
 pragma solidity ^0.4.2;
 contract token { function transfer(address receiver, uint amount){  } }
