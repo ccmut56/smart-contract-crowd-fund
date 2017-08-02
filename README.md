@@ -1,16 +1,9 @@
 # smart-contract-crowd-fund
 erc20 sc crowdfund edit set minimum funding goal / max sell cap 
 
-
-
-
-
-
-
-
-
-
-
+example minimum funding goal 50 eth maximum cap of 200eth to seperate the funding goal from the fixed supply of tokens 
+funding goal can be reached. if interest is peeked can go further without having a limit less token sale or minting tokens.
+how to accomplish this ????
 
 pragma solidity ^0.4.2;
 contract token { function transfer(address receiver, uint amount){  } }
