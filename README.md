@@ -29,9 +29,9 @@ contract Crowdsale {
         token addressOfTokenUsedAsReward
     ) {
         beneficiary = ifSuccessfulSendTo;
-        fundingGoal = fundingGoalInEthers * 200 ether;
-        deadline = now + durationInMinutes * 40000 minutes;
-        price = etherCostOfEachToken * .005 ether;
+        fundingGoal = fundingGoalInEthers * 1 ether;
+        deadline = now + durationInMinutes * 1 minutes;
+        price = etherCostOfEachToken * 1 ether;
         tokenReward = token(addressOfTokenUsedAsReward);
     }
 
